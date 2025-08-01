@@ -1,0 +1,1 @@
+print(f"this is fstring where you can variable like {1+20}")
