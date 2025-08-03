@@ -2,8 +2,9 @@
 class Person:
 
     # Constructor with __int__
+    # Constructor doesn't return
     def __init__(self, name: str = None) -> None:
-        self.name = name
+        self.name: str = name
 
     # Method
     def introduce(self) -> None:

@@ -13,7 +13,7 @@ class Animal(ABC):
     def make_sound(self) -> None:
         print(f"{self.name} make sound")
 
-
+# Inheritance
 class Dog(Animal):
 
     def __init__(self, name: str) -> None:
@@ -30,4 +30,4 @@ class Dog(Animal):
 object1: Dog = Dog('Spike')
 object1.make_sound()
 
-print(isinstance(object1, Animal))
+print("object1 is it instance of Animal ? ", isinstance(object1, Animal))

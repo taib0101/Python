@@ -2,11 +2,13 @@
 class Person:
 
     # This is the main concept of Encapsulation
-    # where access modifier like private and protected are limited to instance 
+    # where access modifier like private and protected are limited access for instance 
 
     name: str # Public property or attribute
     __bank_account: str # Private property or attribute
     _age: int # Protected property or attribute
+
+    # you can make public, private, protected method too
 
     # Constructor
     def __init__(self, name: str, bank_account: str, age: int) -> None:
@@ -20,7 +22,7 @@ class Person:
         return f"Person name is {self.name}, bank account is {self.__bank_account}, age is {self._age}"
     
 
-object1 = Person('Alice', '123sdfq324', 30)
+object1: Person = Person('Alice', '123sdfq324', 30)
 print(object1.introduce())
 
 print(Person('Bob', '43564dfg3', 40).introduce())
