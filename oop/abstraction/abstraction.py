@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
 # abstraction hides implementation details
+# you can't create instance directly from abstraction
 class Animal(ABC):
 
     # you can use constructor as abstract method
