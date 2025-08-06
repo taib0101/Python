@@ -1,5 +1,6 @@
-# Descriptor is a python object, which customize the access another instance's attribute,
+# Descriptor is a python object's method, which customize the access another instance's attribute through __get__, __set__, __delete__,
 # that instance's attribute is also instance of another class
+
 
 # class Descriptor: ------------------------------------|
 #     def __get__(self, instance, value): -------------|-------------|
