@@ -11,5 +11,6 @@ class Person:
         print(f"Object person {self.name} deleted")
 
 
-object1 = Person('Alice')
+object1: Person = Person('Alice')
+# __del__ will trigger when "del" keyword executed
 del object1

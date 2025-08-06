@@ -9,7 +9,8 @@ class FileOpen:
         print(f"file has closed")
     
 
-object1 = FileOpen()
+object1: FileOpen = FileOpen()
 
+# __enter__ will trigger when 'with' keyword find out
 with object1 as file:
     print(file)
