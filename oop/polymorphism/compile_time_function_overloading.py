@@ -1,5 +1,5 @@
 # In Tradition programmig language, there have multiple function with same name for function over loading
-# But In Python, there have no function overloading , there have default arguments as play role of overloading
+# But In Python, there have no function overloading , there have default parameter as play role of overloading
 
 class Person:
 
